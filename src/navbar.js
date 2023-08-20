@@ -14,7 +14,8 @@ const NavBar = (props) => {
     // Programatically click the hidden file input element
     // when the Button component is clicked
     const handleClick = () => {
-      hiddenFileInput.current.click();
+      // hiddenFileInput.current.click();
+      window.location.href = 'http://localhost:3000/sell';
     };
     // Call a function (passed as a prop from the parent component)
     // to handle the user-selected file 
