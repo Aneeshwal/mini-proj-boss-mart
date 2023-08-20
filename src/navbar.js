@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import { Nav, Container } from "react-bootstrap";
 // import logo from "./images/logo4.jpg";
-import Service from "./service"
+// import Service from "./service"
 import "./style.css";
 
 const NavBar = (props) => {
@@ -19,8 +19,8 @@ const NavBar = (props) => {
     };
     // Call a function (passed as a prop from the parent component)
     // to handle the user-selected file 
-    const handleChange = event => {
-      const fileUploaded = event.target.files[0];
+    const handleChange = () => {
+      // const fileUploaded = event.target.files[0];
       // props.handleFile(fileUploaded);
 
       // let upload={
